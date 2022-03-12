@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Melissa's Site HW18</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--This is my nav-->
+        <nav class="topNav">
+            <ul>
+                <li>About Me</li>
+                <li>My Skills</li>
+                <li>My Work</li>
+                <li>Contact Me</li>
+            </ul>
+            <p class="title">Welcome to my Homepage!</p>
+        <!--This is my nav end-->
+        </nav>
+        <div class="inline block">
+            <img src="Images/Logo.png">
+        </div>
+    </header>
+    <div class="content">
+        <h1 class="HeroHeader">Melissa Young</h1>
+        <img src="Images/HeroImage.png">
+        <p>"Waterlilies" - Ink</p>
+        <p><button>Download Resume</button></p>
+        <hr>
+    </div>
+
+    <!--My UX Skills section coded using CSS flex-->    
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        <p>Throughout my journey in the UX/UI Bootcamp, I have learned many important skills. If I were to choose the top three, they would be:</p>
+
+        <div class="flexContainer">
+            <div class="SkillsCard">
+                <div>
+                    <img class="SkillsIMG" src="Images/UXStorytelling.png">
+                    <h3 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Storytelling</h3>
+                    <p>I enjoy composing typical scenarios of users using the mobile applications and websites.</p>
+                </div>
+            </div>
+
+            <div class="SkillsCard">
+                <div>
+                    <img class="SkillsIMG" src="Images/UXPrototyping.png">
+                    <h3 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Prototyping</h3>
+                    <p>I like seeing the transformation from wireframes to interactive and animated prototypes.</p>
+                </div>
+            </div>
+
+            <div class="SkillsCard">
+                <div>
+                    <img class="SkillsIMG" src="Images/UXStyleGuide.png">
+                    <h3 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">System Design/Style Guide
+                    </h3>
+                    <p>I love designing the various components and planning on collaborating them into a cohesive website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--My Work section constructed using CSS grid-->
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="gridContainer">
+            <div class="gridRow">
+                <div>
+                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"
+                     class="worksIMG" src="Images/NAA.png">
+                </div>
+                <div>
+                    <h4>National Archives of Australia</h4>
+                    <p>The redesign of the National Archives of Australia website</p>
+                    <button>View the Project</button>
+                </div>
+            </div>
+
+            <div class="gridRow">
+                <div>
+                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="worksIMG" src="Images/NextTV.PNG">
+                </div>
+                <div>
+                    <h4>NextTV</h4>
+                    <p>The design of an application that offers all the streaming services in one spot, from Netflix to Disney+</p>
+                    <button>View the Project</button>
+                </div>
+            </div>
+
+            <div class="gridRow">
+                <div>
+                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="worksIMG" src="Images/DiabetesCanada.png">
+                </div>
+                <div>
+                    <h4>Diabetes Canada</h4>
+                    <p>The redesign of the Diabetes Canada website that makes relevant sections visible and accessbile for users</p>
+                    <button><a href="https://m3llyj3lly.github.io/UX_UI_HW_20/">View the Project</a></button>
+                </div>
+            </div>
+        </div>
+        <h3>View All Projects</h3>
+        <p><br></p>
+    </section>
+
+    <footer>
+        <nav class="footer">
+            <ul>
+                <li>About Me</li>
+                <li>My Skills</li>
+                <li>My Work</li>
+                <li>Contact Me</li>
+            </ul><!--This is my nav end-->
+        </nav>
+        <div class="contact">
+            <img src="Images/Logo.png">
+            <p>youngwaterlilycreations@gmail.com<br>647-981-2842</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2022 YoungWaterLily. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
