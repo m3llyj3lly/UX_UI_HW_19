@@ -50,6 +50,10 @@ p {
     vertical-align: top;
     margin-left: 10px;
 }
+.topNav ul li:hover {
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
 
 .h1 {
     text-align: center;
@@ -127,7 +131,10 @@ h3 {
     border: 1px solid #ccc;
     border-radius: 50px;
 }
-
+.gridContainer .gridRow button:hover {
+    background-color: #ffffff;
+    border: 1px solid #000;
+}
 .worksIMG{
     size: 50%;
 }
@@ -144,6 +151,10 @@ footer {
     padding: 10px 20px;
     vertical-align: top;
     margin-left: 10px;
+}
+.footer ul li:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 .contact img {
     float: left;
